@@ -22,11 +22,17 @@ The system also includes an admin panel to add new products and an "Add to Cart"
 ### 🏠 Home Page
 ![Home Page](screenshots/home.png)
 
+---
+
 ### 🛒 Product Display
 ![Product Display](screenshots/products.png)
 
+---
+
 ### ➕ Admin Panel (Add Product)
 ![Admin Panel](screenshots/admin.png)
+
+---
 
 ### 🗂️ Category-wise View
 ![Category View](screenshots/category.png)
