@@ -49,6 +49,8 @@ The system also includes an admin panel to add new products and an "Add to Cart"
 ---
 
 ## 🗂️ Project Structure
+
+
 project-folder/
 │
 ├── app.py
@@ -73,7 +75,7 @@ project-folder/
 ## ⚙️ Installation & Setup
 
 ### Step 1: Download or Clone Project
-```bash
+
 git clone <your-repo-link>
 Step 2: Install Dependencies
 pip install flask flask-cors
@@ -81,9 +83,12 @@ Step 3: Run Application
 python app.py
 Step 4: Open in Browser
 http://127.0.0.1:5000/
+
 🗃️ Database
 SQLite database (database.db) is used
+
 Table: products
+
 Product Table Fields:
 id
 name
