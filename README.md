@@ -1,39 +1,35 @@
-# Dispro Store - Product Catalogue Website
+# 🛒 Product Catalogue Display System
 
-A modern full-stack product catalogue website built with Flask (Python) backend and HTML/CSS/JavaScript frontend.
+## 📌 Project Description
+The Product Catalogue Display System is a web-based application that allows users to view products in a structured and organized way. Products are displayed category-wise, making it easier for users to browse and select items.
 
-## Features
+The system also includes an admin panel to add new products and an "Add to Cart" feature to simulate an online shopping experience.
 
-- Clean, professional e-commerce UI
-- Category-wise product filtering
-- Responsive design
-- Cart functionality (basic count)
-- SQLite database for products
+---
 
-## Setup
+## 🎯 Features
+- 📂 Category-wise product display  
+- 🔍 Search and filter products  
+- ➕ Add new products (Admin Panel)  
+- 🛍️ Add to Cart functionality  
+- 🖼️ Image display for each product  
+- 📱 Responsive and user-friendly UI  
 
-1. Ensure Python 3.13 is installed.
-2. Install Flask: `pip install flask`
-3. Run `python init_db.py` to initialize the database with sample data.
-4. Run `python app.py` to start the server.
-5. Open http://127.0.0.1:5000/ in your browser.
+---
 
-## Project Structure
+## 🧰 Technologies Used
 
-- `app.py`: Flask backend with API endpoints
-- `init_db.py`: Database initialization script
-- `templates/index.html`: Main HTML template
-- `static/css/style.css`: Stylesheet
-- `static/js/script.js`: Frontend JavaScript
-- `database.db`: SQLite database
+### Frontend:
+- HTML  
+- CSS  
+- JavaScript  
 
-## API Endpoints
+### Backend:
+- Python (Flask)  
 
-- `GET /api/products?category=<category>`: Get products (filtered by category)
-- `POST /api/add-product`: Add a new product (JSON payload)
+### Database:
+- SQLite  
 
-## Technologies Used
+---
 
-- Backend: Python Flask
-- Database: SQLite
-- Frontend: HTML5, CSS3, JavaScript (ES6)
+## 🗂️ Project Structure
